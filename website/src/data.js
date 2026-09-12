@@ -1,5 +1,6 @@
 export const navItems = [
-  ['home', 'System'],
+  ['home', 'Home'],
+  ['system', 'System'],
   ['architecture', 'Architecture'],
   ['modules', 'Modules'],
   ['reality', 'Reality'],
