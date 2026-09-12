@@ -2,6 +2,7 @@ import { pages, loop } from './data.js';
 import { Navbar } from './components/Navbar.js';
 import { Footer } from './components/Footer.js';
 import { Home } from './pages/Home.js';
+import { Workspace, bindWorkspace } from './pages/Workspace.js';
 import { System } from './pages/System.js';
 import { Architecture } from './pages/Architecture.js';
 import { Modules } from './pages/Modules.js';
@@ -9,7 +10,7 @@ import { Reality } from './pages/Reality.js';
 import { Evaluation } from './pages/Evaluation.js';
 import { Evolution } from './pages/Evolution.js';
 
-const pageViews = { home: Home, system: System, architecture: Architecture, modules: Modules, reality: Reality, evaluation: Evaluation, evolution: Evolution };
+const pageViews = { home: Home, workspace: Workspace, system: System, architecture: Architecture, modules: Modules, reality: Reality, evaluation: Evaluation, evolution: Evolution };
 const metadata = { ...pages, system: { label: '00 · SYSTEM', title: 'GKFXL OS <span>control center.</span>', intro: 'A practical operating layer connecting mission, context, decision, action, verification, reality, and learning.' } };
 
 export function createRouter(root) {
@@ -19,6 +20,7 @@ export function createRouter(root) {
     const meta = metadata[current];
     root.innerHTML = `${Navbar(current)}<main><section class="page-head"><p class="eyebrow">${meta.label}</p><h2>${meta.title}</h2><p>${meta.intro}</p></section><section class="page-content">${pageViews[current]()}</section></main>${Footer()}`;
     bind();
+    if (current === 'workspace') bindWorkspace(root);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
   function bind() {
