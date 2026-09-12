@@ -1,5 +1,6 @@
 export const navItems = [
   ['home', 'Home'],
+  ['workspace', 'Decision Lab'],
   ['system', 'System'],
   ['architecture', 'Architecture'],
   ['modules', 'Modules'],
@@ -40,9 +41,10 @@ export const loop = [
 
 export const pages = {
   home: { label: '00 · CONTROL CENTER', title: 'Think clearly. <span>Act deliberately.</span>', intro: 'GKFXL OS is a reality-driven AI operating system for turning ideas, decisions, and projects into measurable outcomes.' },
-  architecture: { label: '01 · SYSTEM ARCHITECTURE', title: 'A decision system built around <span>reality.</span>', intro: 'v6.4 connects mission, evidence, action, observation, evaluation, and learning into one closed control loop.' },
-  modules: { label: '02 · INTELLIGENCE LAYER', title: 'Intelligence that <span>earns trust.</span>', intro: 'Cross-cutting mechanisms test assumptions, measure outcomes, detect regressions, and control how the system learns.' },
-  reality: { label: '03 · REALITY ENGINE', title: 'Evidence before <span>confidence.</span>', intro: 'The system distinguishes what is observed, supported, inferred, assumed, and still unknown before consequential decisions are made.' },
-  evaluation: { label: '04 · EVALUATION', title: 'Improvement must be <span>measurable.</span>', intro: 'GKFXL OS treats benchmarks, regression checks, drift detection, and calibration as proof that a change actually improved the system.' },
-  evolution: { label: '05 · EVOLUTION', title: 'From reasoning framework to <span>outcome-driven OS.</span>', intro: 'Each version adds capability only when it strengthens the integrated system, preserves reliability, and improves real-world decision quality.' },
+  workspace: { label: '01 · DECISION LAB', title: 'Run the loop. <span>Test the decision.</span>', intro: 'Use the live workspace to turn a real decision into an evidence record, reality-gate result, and local outcome memory.' },
+  architecture: { label: '02 · SYSTEM ARCHITECTURE', title: 'A decision system built around <span>reality.</span>', intro: 'v6.4 connects mission, evidence, action, observation, evaluation, and learning into one closed control loop.' },
+  modules: { label: '03 · INTELLIGENCE LAYER', title: 'Intelligence that <span>earns trust.</span>', intro: 'Cross-cutting mechanisms test assumptions, measure outcomes, detect regressions, and control how the system learns.' },
+  reality: { label: '04 · REALITY ENGINE', title: 'Evidence before <span>confidence.</span>', intro: 'The system distinguishes what is observed, supported, inferred, assumed, and still unknown before consequential decisions are made.' },
+  evaluation: { label: '05 · EVALUATION', title: 'Improvement must be <span>measurable.</span>', intro: 'GKFXL OS treats benchmarks, regression checks, drift detection, and calibration as proof that a change actually improved the system.' },
+  evolution: { label: '06 · EVOLUTION', title: 'From reasoning framework to <span>outcome-driven OS.</span>', intro: 'Each version adds capability only when it strengthens the integrated system, preserves reliability, and improves real-world decision quality.' },
 };
