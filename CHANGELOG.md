@@ -1,5 +1,20 @@
 # Changelog
 
+## v6.4
+
+### Added — Integrated Reality-to-Outcome Architecture
+
+- Integrated control loop connecting mission, context, decision, action, observation, grounding, feedback, attribution, calibration, regression/drift detection, learning quality, memory, and benchmarking
+- Evidence Contract for consequential claims
+- PASS / HOLD / REJECT / ESCALATE decision states
+- Anti-Loop Rule for evidence gathering
+- System-level upgrade gate for regression, security, complexity, and reality-grounding risks
+- `core/V6.4-INTEGRATION-ARCHITECTURE.md`
+
+### Principle
+
+GKFXL OS now treats its modules as one closed-loop evidence-to-outcome operating system rather than a collection of independent capabilities.
+
 ## v6.3
 
 ### Added — Reality & Evaluation Layer
