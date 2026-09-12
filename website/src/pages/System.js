@@ -1,0 +1,1 @@
+export function System() { return `<div class="system-summary"><article><b>MISSION</b><p>Define what outcome matters.</p></article><article><b>CONTROL LOOP</b><p>Connect decisions to observations and outcomes.</p></article><article><b>CORE RULE</b><p>Reality outranks intention.</p></article></div>`; }
