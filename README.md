@@ -1,7 +1,7 @@
 # GKFXL OS
 
 **GKFXL OS** is a personal AI operating framework for turning ideas into reliable, testable outcomes.
-link website-one-bice-45.vercel.app
+
 ## Current Version
 
 **v6.4 — Integrated Reality-to-Outcome Architecture**
@@ -84,3 +84,7 @@ GKFXL OS should not treat completion as success. A task is successful only when 
 ## Repository Goal
 
 This repository is the canonical version-controlled home for the GKFXL OS specification, evolution history, protocols, and future implementations.
+
+## Project Website
+
+https://website-one-bice-45.vercel.app
