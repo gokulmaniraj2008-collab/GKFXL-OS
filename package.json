@@ -1,0 +1,10 @@
+{
+  "name": "gkfxl-os",
+  "version": "6.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "benchmark": "node runtime/benchmark.js",
+    "test": "node --test"
+  }
+}
